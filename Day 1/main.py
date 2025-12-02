@@ -38,4 +38,5 @@ def second(filename):
                 cur = (cur - number) % MAXIMUM
     return count
 
-print(second(filename='input'))
+print('Part 1: ', first(filename='input'))
+print('Part 2: ', second(filename='input'))
